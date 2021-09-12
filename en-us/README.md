@@ -39,12 +39,12 @@ KCC (далее именуемый "KCC" или "мы") представляет
 - Если вы не разрешите нам сделать это, KCC не будет передавать вашу личную информацию никаким сторонним DAPP (децентрализованным приложениям). Если вы разрешаете нам делиться информацией, все юридические обязательства и споры, возникающие в связи с доступом стороннего DAPP (децентрализованного приложения) к вашей личной информации, принимаете на себя вы и сторонний DAPP (децентрализованное приложение).
 - KCC не имеет права предоставлять вам личную информацию каких-либо сторонних разработчиков DAPP (децентрализованных приложений), если они не согласятся на это. Мы поможем в этом вопросе, однако мы не можем гарантировать, что информация может быть получена.
 
-Наконец, мы должны повторить, что мы не рекомендуем и не просим вас использовать какие-либо сторонние службы DAPP (децентрализованных приложений).
+Наконец, мы должны повторить, что мы не рекомендуем и не просим вас использовать какие-либо сторонние службы DAPP (децентрализованные приложения).
 
-# Network Params
-Community users can use any Ethereum compatible wallet to configure with KCC network params, like [metamask](https://metamask.io/), [myetherwallet](https://www.myetherwallet.com/), [imtoken](https://token.im/), [TokenPocket](https://www.tokenpocket.pro/) etc.
+# Сетевые Параметры
+Пользователи сообщества могут использовать любой кошелек, совместимый с Ethereum, для настройки параметров сети KCC, такой как [metamask](https://metamask.io/), [myetherwallet](https://www.myetherwallet.com/), [imtoken](https://token.im/), [TokenPocket](https://www.tokenpocket.pro/) etc.
 
-## Mainnet
+## Основная сеть (Mainnet)
 ```
 Chain Name: KCC-MAINNET
 Chain ID: 321
@@ -54,7 +54,7 @@ Explorer URL: https://explorer.kcc.io/en
 WebSocket RPC URL: wss://rpc-ws-mainnet.kcc.network
 ```
 
-## Testnet
+## Тестовая сеть (Testnet)
 ```
 Chain Name: KCC-TESTNET
 Chain ID: 322
@@ -70,10 +70,10 @@ Faucet URL: https://faucet-testnet.kcc.network (for test only, no value)
 
 ## Node
 ### Binary file
-You can directly visit[https://github.com/kcc-community/kcc/releases](https://github.com/kcc-community/kcc/releases) to download the latest version of the binary file。
+Вы можете напрямую посетить [https://github.com/kcc-community/kcc/releases](https://github.com/kcc-community/kcc/releases) чтобы загрузить последнюю версию бинарного файла。
 
 ### Docker
-Or you can visit [https://hub.docker.com/r/kucoincommunitychain/kcc](https://hub.docker.com/r/kucoincommunitychain/kcc) to rapid deployment and testing。([How to use Docker？](https://docs.docker.com/get-started/))
+Или вы можете посетить [https://hub.docker.com/r/kucoincommunitychain/kcc](https://hub.docker.com/r/kucoincommunitychain/kcc) для быстрого развертывания и тестирования。([Как использовать Docker？](https://docs.docker.com/get-started/))
 
 ### Compilation
 #### Requirements
@@ -83,7 +83,7 @@ Or you can visit [https://hub.docker.com/r/kucoincommunitychain/kcc](https://hub
 
 [how to download and install golang](https://golang.org/doc/install)
 
-#### Steps
+#### Шаги
 ```
 git clone -b kcc --single-branch https://github.com/kcc-community/kcc.git
 cd kcc
