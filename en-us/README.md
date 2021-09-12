@@ -247,40 +247,40 @@ URL：[https://github.com/kcc-community/KIPs](https://github.com/kcc-community/K
 
 >Используйте плагин expand view для отображения в полноэкранном режиме, который может быть более стабильным, или выберите "Ускорить", чтобы увеличить максимальный расход газа и цену на газ.
 
-9.How to use KCC bridge for cross-chain asset conversion service？
+9.Как использовать мост KCC для кросс-чейн переноса активов между сетями？
 
->You can refer to our video tutorial：https://www.youtube.com/watch?v=kZdX1V2Tgnc
+>Вы можете посмотреть видеоурок на эту тему：https://www.youtube.com/watch?v=kZdX1V2Tgnc
 
->For more tutorials, please subscribe to our Youtube channel：https://www.youtube.com/channel/UCZhWm40SuAApnLqqq3F9o1w
+>Больше учебных материалов вы сможете найти на нашем Youtube-канале：https://www.youtube.com/channel/UCZhWm40SuAApnLqqq3F9o1w
 
-10.What happens if we used KCC instead of ERC20 when sending Tether to an address that doesn't support KCC? Does it bounce back after a certain amount of time? 
+10.Что произойдет, если мы используем ER20 вместо KCC при отправке Tether на адрес, который не поддерживает KCC? Будет ли токен возвращен на исходный адрес кошелька через некоторое время?
 
-> If the target address is your personal address, the operation is quite simple. Change the wallet network to KCC, and import your address and your KCC-USDT contract address, then you can see the USDT balance. 
+> Если адрес назначения является вашим личным адресом, операция очень проста. Измените сеть кошелька на KCC,импортируйте свой адрес и адрес контракта KCC-USDT,и вы сможете увидеть баланс USDT.
 
->If your target address is an exchange or a centralized wallet, you need to contact their customer support to either let them support KCC or refund them to your original address. 
+>Если ваш адрес назначения является обменным или централизованным кошельком, вам необходимо обратиться в службу поддержки клиентов, чтобы они оказали поддержку KCC или вернули деньги на ваш первоначальный адрес.
 
->Therefore, we suggest our users to be clear about why they will make the transfer since blockchain features immutability, meaning that any transfer cannot be rolled back once sent, and we always recommend first giving a try with a smaller amount. 
+>Поэтому мы предлагаем нашим пользователям перед отправкой четко понять, куда и как они будут осуществлять перевод, поскольку блокчейн обладает неизменяемостью, что означает, что любой перевод не может быть возвращен после отправки, и мы всегда рекомендуем сначала попробовать с меньшей суммой.
 
 
-## How to configure MetaMask Wallet
+## Как настроить кошелек MetaMask
 
-Use Chrome browser open MetaMask [extension site](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=zh-CN)
+Используя браузер Chrome откройте MetaMask [сайт расширения](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=zh-CN)
 
-Follow the intro, create your ETH wallet，**backup your private key or mnemonic**；
+Следуйте вводной части, создайте свой ETH-кошелек,**создайте резервную копию своего закрытого ключа или мнемонического**；
 
-Config KCC Mainnet
+Конфигурация основной сети KCC
 
-(1) Open MetaMask，you can see the default config of【Ethereum mainnet】。
+(1) Откройте MetaMask, там вы сможете увидеть конфигурацию по умолчанию【Ethereum mainnet】。
 
 <img width="170" alt="E1" src="https://user-images.githubusercontent.com/13411690/121641021-3f093900-cac1-11eb-9c06-fd653cd598a1.png">
 
 
-click【Ethereum mainnet】，click【custom RPC】on the drop menu
+click【Ethereum mainnet】，нажмите【custom RPC】в выпадающем меню
 
 <img width="170" alt="E2" src="https://user-images.githubusercontent.com/13411690/121641049-4597b080-cac1-11eb-8674-3755c30a3398.png">
 
 
-(2) Fill that config value in order change to the KCC Mainnet：
+(2) Заполните это значение конфигурации, чтобы перейти в основную сеть KCC：
 
     Network Name：KCC-MAINNET
     
@@ -297,12 +297,12 @@ click【Ethereum mainnet】，click【custom RPC】on the drop menu
 
 
 
-Done
+Готово
 
 <img width="170" alt="E4" src="https://user-images.githubusercontent.com/13411690/121641085-51837280-cac1-11eb-80cd-1a208c0bcd54.png">
 
-## How to Unstuck Stuck Transactions on MetaMask？
-[[Video]How to Unstuck Stuck Transactions on MetaMask (KCC)](https://youtu.be/0xkkRmajIJI)
+## Как работать с застрявшими транзакциями в MetaMask？
+[[Video]Как работать с застрявшими транзакциями в MetaMask (KCC)](https://youtu.be/0xkkRmajIJI)
 
-## How to add a custom token to your MetaMask wallet?
-[[Video]How to add a custom token to your MetaMask wallet (KCC)](https://youtu.be/tb7xSLur6EU)
+## Как добавить пользовательский токен в свой кошелек MetaMask?
+[[Video]Как добавить пользовательский токен в свой кошелек MetaMask? (KCC)](https://youtu.be/tb7xSLur6EU)
