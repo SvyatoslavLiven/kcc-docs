@@ -3,43 +3,43 @@
 ## Вступление
 KCC-это высокопроизводительная и децентрализованная публичная сеть, созданная фан-сообществами KCS и KuCoin. 
 
-Developed based on go-ethereum with the purpose of providing community users with a higher-speed,
-convenient and low-cost blockchain user experience.
+Сеть разработана на основе go-ethereum с целью предоставления пользователям сообщества более быстрого,
+удобного и недорогого блокчейна.
 
-KCC will have the following characteristics:
-- Fully compatible with Ethereum and ERC-20 smart contracts, with extremely low migration costs;
-- KCS will serve as the only core fuel and native token for KCC and can be used in scenarios such as gas fee payment;
-- A block every 3 seconds results in faster transaction confirmation and higher chain performance;
-- Proof of Staked Authority (PoSA) consensus algorithm, high efficiency, security and stability.
+KCC будет обладать следующими характеристиками:
+- Полная совместимость со смарт-контрактами Ethereum и ERC-20 с чрезвычайно низкими затратами на миграцию;
+- KCS будет служить единственным основным топливом и нативным токеном для KCC и может использоваться в таких сценариях, как оплата за газ;
+- Блок вычисляется каждые 3 секунды, что обеспечивает более высокую производительность транзакций в секунду (TPS) и блокчейна в целом.
+- Proof of Staked Authority (PoSA) алгоритм консенсуса, дающий высокую эффективность, безопасность и стабильность.
 
-## Mission
+## Миссия
 
-Mission: To accelerate the flow of value around the world without boundaries.
+Миссия: Ускорить движение активов по всему миру без границ.
 
-## Risk statement
+## Заявление о рисках
 
-- KCC officially will not release any Swap project because all projects are developed by the community.So KCC is not responsible for any inconvenience caused by these projects. Also, KCC does not serve as customer service for relevant projects.
-- Before any operations in the fields related to cryptocurrency or DeFi, please first do your own research.
-- All users and developers can build the dApp in KCC testnet then the mainnet in the follow-up for free.
-- Please distinguish the test environment (the testnet) from the main network environment (the mainnet). The assets generated in the test environment do not have value, so please be careful against the cryptocurrency fraud.
-- KCC will announce authorization, promotion and other cooperation through its official social network, please kindly check the official information and avoid phishing sites.
-- Please make sure that you are visiting the official website to avoid the loss of private key.
+- KCC официально не будет выпускать никаких проектов, потому что все проекты разрабатываются сообществом. Поэтому, KCC не несет ответственности за любые неудобства, связанными этими проектами. Кроме того, KCC не выполняет функции службы поддержки клиентов для соответствующих проектов.
+- Перед любыми операциями в областях, связанных с криптовалютами или DeFi, пожалуйста, сначала проводите собственные исследования.
+- Все пользователи и разработчики могут создать приложение в тестовой сети KCC, а затем в последующем перевсти проект в основную сеть бесплатно.
+- Пожалуйста, отличайте тестовую среду (Testnet) от основной сетевой среды (Mainnet). Активы, созданные в тестовой среде, не имеют ценности, поэтому, пожалуйста, будьте осторожны с мошенничеством с криптовалютой.
+- KCC объявит об авторизации, продвижении и другом сотрудничестве через свою официальную социальную сеть, пожалуйста, проверьте официальную информацию и избегайте фишинговых сайтов.
+- Пожалуйста, убедитесь, что вы посещаете официальный веб-сайт, чтобы избежать потери приватного ключа.
 
-## Disclaimers
-Dear user (hereinafter referred to as "you"):
+## Отказ от ответственности
+Уважаемый пользователь (далее именуемый "вы"):
 
-KCC (hereinafter referred to as "KCC" or "we") is a decentralized public chain. Developers around the world can deploy applications on KCC, all users can read, send and trade on KCC. Due to the characteristics of decentralization, we hereby remind you the risks of the third-party DAPP are as follows:
+KCC (далее именуемый "KCC" или "мы") представляет собой децентрализованную публичную сеть. Разработчики по всему миру могут развертывать приложения на KCC, все пользователи могут читать, отправлять и торговать на KCC. В связи с особенностями децентрализации, мы напоминаем вам, что риски стороннего DAPP (децентрализованного приложения) заключаются в следующем:
 
-- Before you operate on any platform, wallet or third-party DAPP, please do your own research first;
-- Whether you participate in or use DAPP on KCC through any trading platform or wallet, it is your own behavior and we do not recommend it to you;
--  We are not responsible for auditing any third-party DAPP, nor do we make any commitment and guarantee on the validity, accuracy, correctness, reliability, quality, stability, integrity and timeliness of the technology and information involved in its services;
-- You should bear all the responsibilities arising from your use of any third-party DAPP services on your own;
-- Whether the third-party DAPP services meet the laws, regulations or relevant policies of your jurisdiction, please make your own judgment and evaluation. We do not provide any evaluation, please make sure that you strictly abide by the laws of your jurisdiction;
-- You and the third-party DAPP shall assume the responsibilities of any issues related to the usage of the third-party DAPP, including but not limited to legal issues, contractual liability issues, economic losses, etc., KCC will not be responsible for them;
-- Unless you authorize us to do so, KCC will not share your personal information with any third-party DAPP. If you authorize us to share the information, all legal liabilities and disputes arising from the access by the third-party DAPP to your personal information shall be assumed by you and the third-party DAPP.
-- KCC has no right to provide you with the personal information of any third-party DAPP developers unless they agree to do so. We will assist in this issue however we cannot guarantee that the information can be obtained.
+- Прежде чем вы начнете работать на какой-либо платформе, кошельке или стороннем DAPP (децентрализованном приложении), пожалуйста, сначала проведите собственное исследование;
+- Независимо от того, участвуете ли вы или используете DAPP (децентрализованное приложение) в сети KCC или используете его через любую торговую платформу или кошелек, это ваше собственное поведение, и мы вам его не рекомендуем;
+- Мы не несем ответственности за аудит любого стороннего DAPP (децентрализованного приложения), а также не берем на себя никаких обязательств и не гарантируем достоверность, точность, правильность, надежность, качество, стабильность, целостность и своевременность технологий и информации, используемых в его услугах;
+- Вы должны самостоятельно нести всю ответственность, возникающую в связи с использованием любых сторонних DAPP (децентрализованных приложений);
+- Независимо от того, соответствуют ли DAPP (децентрализованное приложение) законам, нормативным актам или соответствующим политикам вашей юрисдикции, пожалуйста, сделайте свое собственное суждение и оценку. Мы не предоставляем никакой оценки, пожалуйста, убедитесь, что вы строго соблюдаете законы вашей юрисдикции;
+- Вы и стороннее DAPP (децентрализованное приложение) берете на себя ответственность за любые вопросы, связанные с использованием стороннего DAPP (децентрализованное приложение), включая, но не ограничиваясь юридическими вопросами, вопросами договорной ответственности, экономическими потерями и т.д., KCC не несет за них ответственности;
+- Если вы не разрешите нам сделать это, KCC не будет передавать вашу личную информацию никаким сторонним DAPP (децентрализованным приложениям). Если вы разрешаете нам делиться информацией, все юридические обязательства и споры, возникающие в связи с доступом стороннего DAPP (децентрализованного приложения) к вашей личной информации, принимаете на себя вы и сторонний DAPP (децентрализованное приложение).
+- KCC не имеет права предоставлять вам личную информацию каких-либо сторонних разработчиков DAPP (децентрализованных приложений), если они не согласятся на это. Мы поможем в этом вопросе, однако мы не можем гарантировать, что информация может быть получена.
 
-Finally, we need to reiterate that we do not recommend or ask you to use any third-party DAPP service.
+Наконец, мы должны повторить, что мы не рекомендуем и не просим вас использовать какие-либо сторонние службы DAPP (децентрализованных приложений).
 
 # Network Params
 Community users can use any Ethereum compatible wallet to configure with KCC network params, like [metamask](https://metamask.io/), [myetherwallet](https://www.myetherwallet.com/), [imtoken](https://token.im/), [TokenPocket](https://www.tokenpocket.pro/) etc.
