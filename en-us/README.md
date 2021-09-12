@@ -189,19 +189,20 @@ KCC заключил 3 встроенных контракта для PoSA в ф
 и подождать 86400 блоков(3 дня), затем вызвать метод "withdrawStaking` в контракте "валидатор", чтобы сделать сумму доступной.
 
 ### Наказание
-Whenever a validator is found not to mine a block as predefined, the Punish contract is automatically called at the end of this block and the validator is counted. When the count reaches 24, all income of the validator is punished. When the count reaches 48, the validator is removed from the list of active validators, and the validator is disqualified.
+Всякий раз, когда обнаруживается валидатор, который не обрабатывает блок в соответствии с предписаниями, автоматически вызывается контракт наказания. В конце добычи блока этот вызов подсчитывается, если подсчитанные звонки достигнут «24», валидатор будет лишен своего общего дохода, если число вызовов увеличится до 48, активный валидатор будет удален из группы активных валидаторов и дисквалифицирован.
 
-# Governance
 
-## Advice, Issue & Discussion
+# Управление
 
-Any advice, issues and discussion are welcome.
+## Советы, Проблемы и Обсуждения
 
-[Leave advice or an issue](https://github.com/kcc-community/any-advice-issue/issues)
+Любые советы, вопросы и обсуждения приветствуются.
 
-[Start a discussion](https://github.com/kcc-community/any-advice-issue/discussions)
+[Поделитесь советом или сообщите о проблеме](https://github.com/kcc-community/any-advice-issue/issues)
 
-If you have an issue on a special project, please move to the `issue` page in the special project.
+[Начните обсуждение](https://github.com/kcc-community/any-advice-issue/discussions)
+
+По вопросам, касающимся конкретного проекта, пожалуйста, перейдите к конкретному проекту, чтобы открыть `проблему`.
 
 
 ## KIPs
