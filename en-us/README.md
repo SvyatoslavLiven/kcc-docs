@@ -202,50 +202,50 @@ KCC заключил 3 встроенных контракта для PoSA в ф
 
 [Начните обсуждение](https://github.com/kcc-community/any-advice-issue/discussions)
 
-По вопросам, касающимся конкретного проекта, пожалуйста, перейдите к конкретному проекту, чтобы открыть `проблему`.
+По вопросам, касающимся конкретного проекта, пожалуйста, перейдите к конкретному проекту, чтобы открыть `issue`.
 
 
 ## KIPs
-KCC Improvement Proposals
+Предложения по улучшению KCC
 
-KCC Improvement Proposals (KIPs) describe the standards for the KCC platform, including Chain, DEX, and dApps.
+Предложения по улучшению KCC (KIPs) описывают стандарты для платформы KCC, включая Chain, DEX и dApps.
 
-The purpose of this process is to ensure changes to KCC are transparent and well governed.
+Цель этого процесса - обеспечить, чтобы изменения в KCC были прозрачными и хорошо управляемыми.
 
 URL：[https://github.com/kcc-community/KIPs](https://github.com/kcc-community/KIPs)
 
 # FAQ
-1.What is the consensus mechanism of KCC?
+1.Каков механизм консенсуса KCC?
 
->KCC adopts the PoSA consensus mechanism, featuring with low cost, high performance and stable block generation, supporting up to 29 validator nodes;
+>KCC использует механизм локального консенсуса, отличающийся низкой стоимостью, высокой производительностью и стабильной генерацией блоков, поддерживающий до 29 нод валидаторов;
 
-2.How to become a KCC validator node?
+2.Как стать узлом проверки KCC?
 
->To become a validator, you need to create a node and submit a proposal, and wait for other active validators to vote. After receiving more than half of the votes, you are eligible to become a validator. Any address can stake the address that is eligible to become a validator. After the validator's staked amount ranks in the top 29, the validator will become an active one in the next epoch.
+>Чтобы стать валидатором, вам нужно запустить ноду и отправить предложение, а затем подождать, пока другие активные валидаторы проголосуют. Получив более половины голосов, вы имеете право стать валидатором. Любой адрес может производить стейкинг на адрес, который подходит для того, чтобы стать валидатором, и после того, как объем стейка валидатора войдет в топ-29, он станет активным валидатором в следующую эпоху.
 
-3.Does KCC support EVM?
+3.Поддерживает ли KCC EVM?
 
->KCC fully supports EVM and is completely friendly to Ethereum developers.
+>KCC полностью поддерживает EVM и полностью дружелюбен к разработчикам Ethereum.
 
-4.What SDK does KCC use?
+4.Какой SDK использует KCC?
 
->KCC is highly compatible with Ethereum, so we adopt the sdk of Ethereum such as web3js, web3j, etc.
+>KCC очень совместим с Ethereum, поэтому мы используем sdk Ethereum, такие как web3js, web3j и т. д.
 
-5.I want to carry out some operations and tests on the KCC testnet. Where can I get test tokens?
+5.Я хочу выполнить некоторые операции и тесты в тестовой сети KCC. Где я могу получить тестовые токены?
 
->You can visit our testnet faucet: https://faucet-testnet.kcc.network.
+>Вы можете зайти на наш кран и получить их там: https://faucet-testnet.kcc.network.
 
-6.How to stake contract nodes?
+6.Как положить в стейкинг на контракты нод?
 
->Users can call the stake method of the validator contract to stake any node. The minimum staked amount for each validator is 32 KCS.
+>Пользователи могут вызвать метод stake контракта валидатора, чтобы положить в стейкинг на любую ноду. Минимальная сумма стейка для каждого валидатора составляет 32 KCS.
 
-7.How to unlock the staked amount?
+7.Как разблокировать сумму стейка?
 
->If users want to retrieve the staked KCS, they need to call the unstake method of the validators contract to unlock the staked amount. After 86,400 blocks were generated (3 days), call the withdrawStaking method of the validators contract to get the staked KCS back.
+>Если пользователи хотят вернуть находящиеся в стейке KCS, им необходимо вызвать метод unstake контракта валидаторов, чтобы разблокировать сумму находящуюся в стейке. После того, как было сгенерировано 86 400 блоков (3 дня), вызовите метод withdrawStaking контракта валидаторов, чтобы вернуть находящиеся в стейке KCS.
 
-8.Get stuck when using MetaMask (including but not limited to transfer stuck or delay, problem of data display, etc.)
+8.Проблемы при использовании MetaMask (включая, но не ограничиваясь, проблемы при отправке токенов, задержка при отправке, проблемой отображения данных и т.д.)
 
->Use the plug-in expand view to display at full screen, which can be more stable or choose "Accelerate" to increase gaslimt and gasPrice.
+>Используйте плагин expand view для отображения в полноэкранном режиме, который может быть более стабильным, или выберите "Ускорить", чтобы увеличить максимальный расход газа и цену на газ.
 
 9.How to use KCC bridge for cross-chain asset conversion service？
 
