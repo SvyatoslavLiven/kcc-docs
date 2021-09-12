@@ -1,7 +1,7 @@
 # KCC
 
-## Introduction
-KCC is a high-performance and decentralized public chain built by KCS’ and KuCoin’s fan communities.  
+## Вступление
+KCC-это высокопроизводительная и децентрализованная публичная сеть, созданная фан-сообществами KCS и KuCoin. 
 
 Developed based on go-ethereum with the purpose of providing community users with a higher-speed,
 convenient and low-cost blockchain user experience.
