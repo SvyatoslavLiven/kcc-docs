@@ -66,22 +66,22 @@ WebSocket RPC URL: wss://rpc-ws-testnet.kcc.network
 Faucet URL: https://faucet-testnet.kcc.network (for test only, no value)
 ```
 
-# Developer 
+# Разработчикам 
 
-## Node
-### Binary file
+## Нода
+### Бинарный файл
 Вы можете напрямую посетить [https://github.com/kcc-community/kcc/releases](https://github.com/kcc-community/kcc/releases) чтобы загрузить последнюю версию бинарного файла。
 
 ### Docker
 Или вы можете посетить [https://hub.docker.com/r/kucoincommunitychain/kcc](https://hub.docker.com/r/kucoincommunitychain/kcc) для быстрого развертывания и тестирования。([Как использовать Docker？](https://docs.docker.com/get-started/))
 
-### Compilation
-#### Requirements
+### Сборка
+#### Требования
 - Linux or Mac
 - golang >= 1.13
 - git
 
-[how to download and install golang](https://golang.org/doc/install)
+[как скачать и установить golang](https://golang.org/doc/install)
 
 #### Шаги
 ```
@@ -89,19 +89,19 @@ git clone -b kcc --single-branch https://github.com/kcc-community/kcc.git
 cd kcc
 make geth
 ```
-#### Running
-The command line flags are similar to go-ethereum, you can use `./build/bin/geth --help` for all command line options,
-like `./build/bin/geth --testnet` to join the Testnet. Caution: Use the specific "geth" version located at `./build/bin/geth`.
+#### Запуск
+Флаги командной строки аналогичны флагам go-ethereum, вы можете использовать `./build/bin/geth --help` для всех параметров командной строки,
+как `./build/bin/geth --testnet` чтобы присоединиться к тестовой сети. Внимание: Используйте конкретную версию "geth", расположенную по адресу `./build/bin/geth`.
 
 ## Docker
 
-You can use [https://hub.docker.com/r/kucoincommunitychain/kcc](https://hub.docker.com/r/kucoincommunitychain/kcc) to fast deploy and test.
+Вы можете использовать [https://hub.docker.com/r/kucoincommunitychain/kcc](https://hub.docker.com/r/kucoincommunitychain/kcc) для быстрого развертывания и тестирования.
 
-[How to use Docker?](https://docs.docker.com/get-started/)
+[Как использовать Docker?](https://docs.docker.com/get-started/)
 
-## Deploy
+## Развертывание
 
-### Requirements
+### Требования
 ```
 4 core cpu
 8g memory
@@ -109,7 +109,7 @@ You can use [https://hub.docker.com/r/kucoincommunitychain/kcc](https://hub.dock
 public ip with TCP/UDP:30303 open
 ```
 
-#### Start command
+#### Комманда для запуска
 ```
 ./geth  #Mainnet
 ./geth --testnet #Testnet
@@ -128,13 +128,13 @@ useful options:
 --gcmode archive #gcmode
 ```
 
-You can use `nohup`,`supervisor`,`systemd` to run and manage `geth` in the background.
+Вы можете использовать `nohup`,`supervisor`,`systemd` для запуска и управления `geth` в фоновом режиме.
 
 - [supervisor](http://supervisord.org/)
 - [systemd](https://wiki.debian.org/systemd)
 
 ## SDKs
-You can use the following SDKs to interact with KCC node rpc.
+Вы можете использовать следующие пакеты SDK для взаимодействия с rpc ноды KCC.
 
 - [Js: web3.js](https://github.com/ChainSafe/web3.js) Ethereum JavaScript API
 - [Java: web3j](https://github.com/web3j/web3j) Web3 Java Ethereum Ðapp API
@@ -142,7 +142,7 @@ You can use the following SDKs to interact with KCC node rpc.
 - [Python: Web3.py](https://github.com/ethereum/web3.py) A Python library for interacting with Ethereum, inspired by web3.js.
 - [Golang: go-ethereum](https://github.com/ethereum/go-ethereum)
 
-## Tools
+## Инструменты
 - [Solidity](https://docs.soliditylang.org/en/latest/)
 - [Remix](https://remix.ethereum.org/)
 - [Truffle](https://www.trufflesuite.com/docs/truffle/overview)
@@ -150,45 +150,45 @@ You can use the following SDKs to interact with KCC node rpc.
 - [Faucet](https://faucet-testnet.kcc.network)
 - [Explorer](https://explorer.kcc.io)
 
-## Bridge
+## Мост
 - [KCC-Bridge](https://www.kcc.io/#/bridge/transfer)
 - [AnySwap](https://anyswap.exchange/bridge)
 
-## Consensus
-KCC introduces a PoSA consensus mechanism, which features low transaction costs, low transaction delay,
-high transaction concurrency, and supports up to 29 validators.
+## Консенсус
+KCC внедряет механизм консенсуса PoSA, который обеспечивает низкие транзакционные издержки, низкую задержку транзакций,
+высокий уровень параллелизма транзакций и поддерживает до 29 валидаторов.
 
-PoSA is a combination of PoA and PoS. To become a validator, you need to submit a proposal first and wait for other active validators to vote on it. After more than half of them voted, you will be eligible to become a validator. Any address can stake to an address that qualifies to become a validator, and after the validator's staking volume ranks in the top 29, it will become an active validator in the next epoch.
+PoSA-это комбинация PoA и PoS. Чтобы стать валидатором, вам нужно сначала подать предложение и подождать, пока другие активные валидаторы проголосуют за него. После того, как более половины из них проголосуют, вы получите право стать валидатором. Любой адрес может производить стейкинг на адрес, который подходит для того, чтобы стать валидатором, и после того, как объем стейка валидатора войдет в топ-29, он станет активным валидатором в следующую эпоху.
 
-All active validators are ordered according to predefined rules and take turns to mine blocks. If a validator fails to mine a block on time during their own round, the active validators who have not been involved in the past n/2 (n is the number of active validators) blocks will randomly perform the block-out. At least n/2+1 active validators work properly to ensure the proper operation of the blockchain.
+Все активные валидаторы упорядочены в соответствии с предопределенными правилами и по очереди добывают блоки. Если валидатор не сможет вовремя добыть блок во время своего собственного раунда, активные валидаторы, которые не участвовали в прошлых n/2 (n - количество активных валидаторов) блоков, будут случайным образом выполнять "block-out". По крайней мере, n/2+1 активных валидаторов работают должным образом, чтобы обеспечить правильную работу блокчейна.
 
-The difficulty value of a block is 2 when the block is generated normally and 1 when the block is not generated in a predefined order. When a fork of the blockchain occurs, the blockchain selects the corresponding fork according to the cumulative maximum difficulty.
+Значение сложности блока равно 2, когда блок генерируется нормально, и 1, когда блок не генерируется в заданном порядке. Когда происходит развилка блокчейна, блокчейн выбирает соответствующую развилку в соответствии с совокупной максимальной сложностью.
 
-### System Contracts
-KCC has made 3 built-in contracts for PoSA in the genesis file.
+### Системные Контракты
+KCC заключил 3 встроенных контракта для PoSA в файле genesis.
 
-The source code of those contracts are forked from Heco, you can locate them here: [https://github.com/kcc-community/kcc-genesis-contracts](https://github.com/kcc-community/kcc-genesis-contracts)。
+Исходный код этих контрактов взят из Heco, вы можете найти их здесь: [https://github.com/kcc-community/kcc-genesis-contracts](https://github.com/kcc-community/kcc-genesis-contracts)。
 
-The management of the current validators are all done by the system contracts.
+Все управление текущими валидаторами осуществляется системными контрактами.
 
-- Proposal Responsible for managing access to validators and managing validator proposals and votes.
-- Validators Responsible for ranking management of validators, staking and unstaking operations, distribution of block rewards, etc.
-- Punish Responsible for punishing operations against active validators who are not working properly.
+- Отвечает за управление доступом к валидаторам и управление предложениями и голосами валидаторов.
+- Отвечает за управление рангом валидаторов, операции по стейкингу и анстейкингу, распределение вознаграждений за блоки и т.д.
+- Отвечает за наказание активных валидаторов, которые работают ненадежно.
 
-Blockchain call system contracts：
+Контракты системы вызовов блокчейна：
 
-- At the end of each block, the Validators contract is called and the fees for all transactions in the block are distributed to active validators.
-- The Punish contract is called to punish the validator when the validator is not working properly.
-- At the end of each epoch, the Validators contract is called to update active validators, based on the ranking.
+- В конце каждого блока вызывается контракт с валидаторами, и сборы за все транзакции в блоке распределяются между активными валидаторами.
+- Контракт на наказание вызывается для наказания валидатора, когда валидатор работает неправильно.
+- В конце каждой эпохи контракт с валидаторами вызывается для обновления активных валидаторов на основании рейтинга.
 
-### stake
-You can call the `stake` method in the `validator` contract to stake for any validator, the minimum staking amount for each validator is 32KCS.
+### Стейкинг
+Вы можете вызвать метод "стейкинг" в контракте "валидатор", чтобы сделать стейк для любого валидатора, минимальная сумма стейка для каждого валидатора составляет 32KCS.
 
-### unstake
-If you want to `unstake` your KCS, you need to call the `unstake` method in the `validator` contract,
-and wait for 86400 blocks(3 days), then call the `withdrawStaking` method in the `validator` contract to make the amount available.
+### Анстейкинг
+Если вы хотите забрать из стейка свои KCS, вам нужно вызвать метод "unstake" в контракте "валидатор"
+и подождать 86400 блоков(3 дня), затем вызвать метод "withdrawStaking` в контракте "валидатор", чтобы сделать сумму доступной.
 
-### punish
+### Наказание
 Whenever a validator is found not to mine a block as predefined, the Punish contract is automatically called at the end of this block and the validator is counted. When the count reaches 24, all income of the validator is punished. When the count reaches 48, the validator is removed from the list of active validators, and the validator is disqualified.
 
 # Governance
