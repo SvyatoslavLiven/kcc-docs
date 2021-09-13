@@ -1,202 +1,289 @@
 # KCC
 
-## Einführung
+## Вступление
+KCC-это высокопроизводительная и децентрализованная публичная сеть, созданная фан-сообществами KCS и KuCoin. 
 
-KCC ist eine dezentralisierte high-performance Blockchain, Gebaut von Fans von KCS und KuCoin.
+Сеть разработана на основе go-ethereum с целью предоставления пользователям сообщества более быстрого,
+удобного и недорогого блокчейна.
 
-Entwickelt auf der Basis von "go-ethereum" mit dem Hintergedanken der Community eine "High-Speed" Blockchain Erfahrung mit niedrigen Gebühren zu bieten.
+KCC будет обладать следующими характеристиками:
+- Полная совместимость со смарт-контрактами Ethereum и ERC-20 с чрезвычайно низкими затратами на миграцию;
+- KCS будет служить единственным основным топливом и нативным токеном для KCC и может использоваться в таких сценариях, как оплата за газ;
+- Блок вычисляется каждые 3 секунды, что обеспечивает более высокую производительность транзакций в секунду (TPS) и блокчейна в целом.
+- Proof of Staked Authority (PoSA) алгоритм консенсуса, дающий высокую эффективность, безопасность и стабильность.
 
-KCC wird folgende Eigenschaften bieten:
-- Voll kompatibel mit Ethereum und ERC-20 Smart Contracts und extrem niedrigen migrations Gebühren.
-- Der KuCoin Token (KCS) ist der native haupt Coin für die KCC und wird unter anderem für Gas Gebühren genutzt.
-- Ein Block wird alle 3 Sekunden berechnet was eine höhere TPS (Transactions per Second) und Chain performance ermöglicht.
-- Die Basis der KCC ist der "Proof of Staked Authority" (PoSA) Konsensusalgorithmus mit hoher Effizienz, Sicherheit und Stabilität.
+## Миссия
 
-## Mission
+Миссия: Ускорить движение активов по всему миру без границ.
 
-Mission: Beschleunigung der Wertübertragung um die ganze Welt ohne Grenzen.
+## Заявление о рисках
 
-# Netzwerk Parameter
+- KCC официально не будет выпускать никаких проектов, потому что все проекты разрабатываются сообществом. Поэтому, KCC не несет ответственности за любые неудобства, связанными этими проектами. Кроме того, KCC не выполняет функции службы поддержки клиентов для соответствующих проектов.
+- Перед любыми операциями в областях, связанных с криптовалютами или DeFi, пожалуйста, сначала проводите собственные исследования.
+- Все пользователи и разработчики могут создать приложение в тестовой сети KCC, а затем в последующем перевсти проект в основную сеть бесплатно.
+- Пожалуйста, отличайте тестовую среду (Testnet) от основной сетевой среды (Mainnet). Активы, созданные в тестовой среде, не имеют ценности, поэтому, пожалуйста, будьте осторожны с мошенничеством с криптовалютой.
+- KCC объявит об авторизации, продвижении и другом сотрудничестве через свою официальную социальную сеть, пожалуйста, проверьте официальную информацию и избегайте фишинговых сайтов.
+- Пожалуйста, убедитесь, что вы посещаете официальный веб-сайт, чтобы избежать потери приватного ключа.
 
-Community Mitglieder können jede Ethereum compatible Wallet mit dem KCC Netzwerk Parametern konfigurieren wie z.B. [metamask](https://metamask.io/), [myetherwallet](https://www.myetherwallet.com/), [imtoken](https://token.im/), [TokenPocket](https://www.tokenpocket.pro/) etc.
+## Отказ от ответственности
+Уважаемый пользователь (далее именуемый "вы"):
 
-## Mainnet
+KCC (далее именуемый "KCC" или "мы") представляет собой децентрализованную публичную сеть. Разработчики по всему миру могут развертывать приложения на KCC, все пользователи могут читать, отправлять и торговать на KCC. В связи с особенностями децентрализации, мы напоминаем вам, что риски стороннего DAPP (децентрализованного приложения) заключаются в следующем:
+
+- Прежде чем вы начнете работать на какой-либо платформе, кошельке или стороннем DAPP (децентрализованном приложении), пожалуйста, сначала проведите собственное исследование;
+- Независимо от того, участвуете ли вы или используете DAPP (децентрализованное приложение) в сети KCC или используете его через любую торговую платформу или кошелек, это ваше собственное поведение, и мы вам его не рекомендуем;
+- Мы не несем ответственности за аудит любого стороннего DAPP (децентрализованного приложения), а также не берем на себя никаких обязательств и не гарантируем достоверность, точность, правильность, надежность, качество, стабильность, целостность и своевременность технологий и информации, используемых в его услугах;
+- Вы должны самостоятельно нести всю ответственность, возникающую в связи с использованием любых сторонних DAPP (децентрализованных приложений);
+- Независимо от того, соответствуют ли DAPP (децентрализованное приложение) законам, нормативным актам или соответствующим политикам вашей юрисдикции, пожалуйста, сделайте свое собственное суждение и оценку. Мы не предоставляем никакой оценки, пожалуйста, убедитесь, что вы строго соблюдаете законы вашей юрисдикции;
+- Вы и стороннее DAPP (децентрализованное приложение) берете на себя ответственность за любые вопросы, связанные с использованием стороннего DAPP (децентрализованное приложение), включая, но не ограничиваясь юридическими вопросами, вопросами договорной ответственности, экономическими потерями и т.д., KCC не несет за них ответственности;
+- Если вы не разрешите нам сделать это, KCC не будет передавать вашу личную информацию никаким сторонним DAPP (децентрализованным приложениям). Если вы разрешаете нам делиться информацией, все юридические обязательства и споры, возникающие в связи с доступом стороннего DAPP (децентрализованного приложения) к вашей личной информации, принимаете на себя вы и сторонний DAPP (децентрализованное приложение).
+- KCC не имеет права предоставлять вам личную информацию каких-либо сторонних разработчиков DAPP (децентрализованных приложений), если они не согласятся на это. Мы поможем в этом вопросе, однако мы не можем гарантировать, что информация может быть получена.
+
+Наконец, мы должны повторить, что мы не рекомендуем и не просим вас использовать какие-либо сторонние службы DAPP (децентрализованные приложения).
+
+# Сетевые Параметры
+Пользователи сообщества могут использовать любой кошелек, совместимый с Ethereum, для настройки параметров сети KCC, такой как [metamask](https://metamask.io/), [myetherwallet](https://www.myetherwallet.com/), [imtoken](https://token.im/), [TokenPocket](https://www.tokenpocket.pro/) etc.
+
+## Основная сеть (Mainnet)
 ```
 Chain Name: KCC-MAINNET
 Chain ID: 321
 Symbol: KCS
 RPC URL: https://rpc-mainnet.kcc.network
-Explorer URL: https://explorer.kcc.io/de
+Explorer URL: https://explorer.kcc.io/en
 WebSocket RPC URL: wss://rpc-ws-mainnet.kcc.network
 ```
 
-## Testnet
+## Тестовая сеть (Testnet)
 ```
-Chain Name: KCC-testnet
+Chain Name: KCC-TESTNET
 Chain ID: 322
 Symbol: KCS
 RPC URL: https://rpc-testnet.kcc.network
 Explorer URL: https://scan-testnet.kcc.network
 WebSocket RPC URL: wss://rpc-ws-testnet.kcc.network
 
-Faucet URL: https://faucet-testnet.kcc.network (Zu testzwecken ohne einen Wert)
+Faucet URL: https://faucet-testnet.kcc.network (for test only, no value)
 ```
 
-# Developer Dokumentation
+# Разработчикам 
 
-## Kompilierung
-### Vorraussetzungen
-- Linux oder Mac
+## Нода
+### Бинарный файл
+Вы можете напрямую посетить [https://github.com/kcc-community/kcc/releases](https://github.com/kcc-community/kcc/releases) чтобы загрузить последнюю версию бинарного файла。
+
+### Docker
+Или вы можете посетить [https://hub.docker.com/r/kucoincommunitychain/kcc](https://hub.docker.com/r/kucoincommunitychain/kcc) для быстрого развертывания и тестирования。([Как использовать Docker？](https://docs.docker.com/get-started/))
+
+### Сборка
+#### Требования
+- Linux or Mac
 - golang >= 1.13
 - git
 
-[Wie downloadet und installiert man golang?](https://golang.org/doc/install)
+[как скачать и установить golang](https://golang.org/doc/install)
 
-### Schritte
+#### Шаги
 ```
 git clone -b kcc --single-branch https://github.com/kcc-community/kcc.git
 cd kcc
 make geth
 ```
-### Ausführen
-
-Die Commandline Flags sind ähnlich wie beim originalen "go-ethereum", um alle verfügbaren Flags zu sehen nutze bitte `./build/bin/geth --help`.
-Um zum Beispiel dem Testnet beizutreten nutze einfach `./build/bin/geth --testnet`.
+#### Запуск
+Флаги командной строки аналогичны флагам go-ethereum, вы можете использовать `./build/bin/geth --help` для всех параметров командной строки,
+как `./build/bin/geth --testnet` чтобы присоединиться к тестовой сети. Внимание: Используйте конкретную версию "geth", расположенную по адресу `./build/bin/geth`.
 
 ## Docker
 
-Auch bieten wir ein Docker Image [https://hub.docker.com/r/kucoincommunitychain/kcc](https://hub.docker.com/r/kucoincommunitychain/kcc) um ein schnelles Deployment zu ermöglichen.
+Вы можете использовать [https://hub.docker.com/r/kucoincommunitychain/kcc](https://hub.docker.com/r/kucoincommunitychain/kcc) для быстрого развертывания и тестирования.
 
-[Wie nutze ich Docker?](https://docs.docker.com/get-started/)
+[Как использовать Docker?](https://docs.docker.com/get-started/)
 
-## Deployment
+## Развертывание
 
-### Vorraussetzungen
+### Требования
 ```
 4 core cpu
 8g memory
-scalable SSD disk
+200G and scalable SSD
 public ip with TCP/UDP:30303 open
 ```
 
-### Start command
+#### Комманда для запуска
 ```
-./build/bin/geth #Mainnet
-./build/bin/geth --testnet #Testnet
+./geth  #Mainnet
+./geth --testnet #Testnet
 
 useful options:
 /data/kcc/geth \
 --datadir /data/.kcc/testnet \ #your data dir
 --testnet \ #Testnet
 --http \ #http rpc
---ws \ #ws rpc
---http.vhosts * \ #vhosts
---rpccorsdomain * \ #http corsdomain
 --http.addr 0.0.0.0 \ #http rpc bind address
+--http.vhosts * \ #vhosts
+--http.corsdomain * \ #http corsdomain
+--ws \ #ws rpc
 --ws.addr 0.0.0.0 \ #ws rpc bind address
 --syncmode full \ #syncmode
 --gcmode archive #gcmode
 ```
 
-Um den Node (`geth`) im Hintergrund laufen zu lassen, kannst du `nohup`,`supervisor`,`systemd` nutzen.
+Вы можете использовать `nohup`,`supervisor`,`systemd` для запуска и управления `geth` в фоновом режиме.
 
 - [supervisor](http://supervisord.org/)
 - [systemd](https://wiki.debian.org/systemd)
 
 ## SDKs
+Вы можете использовать следующие пакеты SDK для взаимодействия с rpc ноды KCC.
 
-Um mit dem KCC Node (RPC oder Websocket) zu interagieren kannst du eine der folgenden SDKs nutzen.
-
-- [Js: web3.js](https://github.com/kcc-community/web3.js) Ethereum JavaScript API
+- [Js: web3.js](https://github.com/ChainSafe/web3.js) Ethereum JavaScript API
 - [Java: web3j](https://github.com/web3j/web3j) Web3 Java Ethereum Ðapp API
 - [PHP: web3.php](https://github.com/sc0Vu/web3.php) A php interface for interacting with the Ethereum blockchain and ecosystem.
 - [Python: Web3.py](https://github.com/ethereum/web3.py) A Python library for interacting with Ethereum, inspired by web3.js.
 - [Golang: go-ethereum](https://github.com/ethereum/go-ethereum)
 
-## Konsensusalgorithmus
+## Инструменты
+- [Solidity](https://docs.soliditylang.org/en/latest/)
+- [Remix](https://remix.ethereum.org/)
+- [Truffle](https://www.trufflesuite.com/docs/truffle/overview)
+- [Hardhat](https://hardhat.org/)
+- [Faucet](https://faucet-testnet.kcc.network)
+- [Explorer](https://explorer.kcc.io)
 
-Die KCC nutzt den PoSA Konsensusalgorithmus welcher es ermöglicht niedrige Transaktiosgebühren, Transaktionswartezeiten sowie eine hohe Transaktionsparallelität zu ermöglichen und unterstützt damit bis zu maximal 29 Validatoren.
+## Мост
+- [KCC-Bridge](https://www.kcc.io/#/bridge/transfer)
+- [AnySwap](https://anyswap.exchange/bridge)
 
-PoSA ist eine Kombination auf PoA und PoS. Um ein Validator zu werden musst du ein "proposal/Anfrage" dafür einreichen und dann warten bis aktive Validatoren über deine Anfrage abgestimmt haben. Nachdem mehr als die hälfte der aktiven Validatoren abgestimmt haben ist es dir erlaubt Validator zu werden. Jeglicher Adresse kann seine KCS einer anderen Addresse "staken" welche qualifiziert ist ein Validator zu werden. Nachdem das Staking Volumen des jeweiligen Nodes die Top 29 Staking Addressen erreicht wird ein aktiver Validator im nächsten Epoch solange er die Position in den Top 29 hält.
+## Консенсус
+KCC внедряет механизм консенсуса PoSA, который обеспечивает низкие транзакционные издержки, низкую задержку транзакций,
+высокий уровень параллелизма транзакций и поддерживает до 29 валидаторов.
 
-Alle aktiven Validatoren werden dazu angehalten anhand vordefinierter Regeln Blöcke zu "minen/berrechnen". Wenn ein Validator bei der berrechung eines Blocks dran ist, versagt, wird der Validator der nicht involviert war in den letzten "n/2" (n ist die Nummer of aktiven Validatoren) Blöcken wird zufallsbasiert einen "block-out" durchführen. Es müssen mindestens "n/2+1" aktive Validatoren sicher arbeiten um die Operationssicherheit der Blockchain zu gewährleisten.
+PoSA-это комбинация PoA и PoS. Чтобы стать валидатором, вам нужно сначала подать предложение и подождать, пока другие активные валидаторы проголосуют за него. После того, как более половины из них проголосуют, вы получите право стать валидатором. Любой адрес может производить стейкинг на адрес, который подходит для того, чтобы стать валидатором, и после того, как объем стейка валидатора войдет в топ-29, он станет активным валидатором в следующую эпоху.
 
-Die schwierigkeit eines Block ist 2 wenn der Block automatisch generiert ist, und 1 wenn der Block nicht durch eine vordefinierte Order generiert worden ist. Wenn ein fork der Blockchain erscheint, wählt die Blockchain den zugehörigen Frok entsprechend der kumulierten maximalen Schwierigkeit.
+Все активные валидаторы упорядочены в соответствии с предопределенными правилами и по очереди добывают блоки. Если валидатор не сможет вовремя добыть блок во время своего собственного раунда, активные валидаторы, которые не участвовали в прошлых n/2 (n - количество активных валидаторов) блоков, будут случайным образом выполнять "block-out". По крайней мере, n/2+1 активных валидаторов работают должным образом, чтобы обеспечить правильную работу блокчейна.
+
+Значение сложности блока равно 2, когда блок генерируется нормально, и 1, когда блок не генерируется в заданном порядке. Когда происходит развилка блокчейна, блокчейн выбирает соответствующую развилку в соответствии с совокупной максимальной сложностью.
+
+### Системные Контракты
+KCC заключил 3 встроенных контракта для PoSA в файле genesis.
+
+Исходный код этих контрактов взят из Heco, вы можете найти их здесь: [https://github.com/kcc-community/kcc-genesis-contracts](https://github.com/kcc-community/kcc-genesis-contracts)。
+
+Все управление текущими валидаторами осуществляется системными контрактами.
+
+- Отвечает за управление доступом к валидаторам и управление предложениями и голосами валидаторов.
+- Отвечает за управление рангом валидаторов, операции по стейкингу и анстейкингу, распределение вознаграждений за блоки и т.д.
+- Отвечает за наказание активных валидаторов, которые работают ненадежно.
+
+Контракты системы вызовов блокчейна：
+
+- В конце каждого блока вызывается контракт с валидаторами, и сборы за все транзакции в блоке распределяются между активными валидаторами.
+- Контракт на наказание вызывается для наказания валидатора, когда валидатор работает неправильно.
+- В конце каждой эпохи контракт с валидаторами вызывается для обновления активных валидаторов на основании рейтинга.
+
+### Стейкинг
+Вы можете вызвать метод "стейкинг" в контракте "валидатор", чтобы сделать стейк для любого валидатора, минимальная сумма стейка для каждого валидатора составляет 32KCS.
+
+### Анстейкинг
+Если вы хотите забрать из стейка свои KCS, вам нужно вызвать метод "unstake" в контракте "валидатор"
+и подождать 86400 блоков(3 дня), затем вызвать метод "withdrawStaking` в контракте "валидатор", чтобы сделать сумму доступной.
+
+### Наказание
+Всякий раз, когда обнаруживается валидатор, который не обрабатывает блок в соответствии с предписаниями, автоматически вызывается контракт наказания. В конце добычи блока этот вызов подсчитывается, если подсчитанные звонки достигнут «24», валидатор будет лишен своего общего дохода, если число вызовов увеличится до 48, активный валидатор будет удален из группы активных валидаторов и дисквалифицирован.
 
 
-### System Contracts
+# Управление
 
-KCC hat 3 integrierte System Contracts für den PoSA in der Geniss Datei.
+## Советы, Проблемы и Обсуждения
 
-Der Source Code dieser 3 Contracts sind von "Heco" gefroked und sind auf unserem Github Repository zu finden: [https://github.com/kcc-community/kcc-genesis-contracts](https://github.com/kcc-community/kcc-genesis-contracts)。
+Любые советы, вопросы и обсуждения приветствуются.
 
-Die Verwaltung der aktuellen Validatoren obliegt den System Contracts.
+[Поделитесь советом или сообщите о проблеме](https://github.com/kcc-community/any-advice-issue/issues)
 
-- Verantwortlich für Zugriffsrechte auf Validatoren und verwaltung von Validator Anträgen sowie Votes/Stimmen.
-- Verantwortlich für Rang Management von Validatoren swoie Staking und Unstaking Operationen und die verteilung der Block Rewards etc.
-- Verantwortlich für Bestrafung aktiver Validatoren welche nicht zuverlässlich arbeiten.
+[Начните обсуждение](https://github.com/kcc-community/any-advice-issue/discussions)
 
-Blockchain System Contract aufrufe：
+По вопросам, касающимся конкретного проекта, пожалуйста, перейдите к конкретному проекту, чтобы открыть `issue`.
 
-- Am Ende jeden Blocks wird der Validator Contract aufgerufen und die errechneten Gebühren für alle Transaktionen innerhalb des Blocks werden auf alle aktiven Validatoren verteilt.
-- Der Bestrafungs Contract wird dann aufgerufen wenn ein Validator nicht zuverlässlich arbeitet.
-- Am Ende jeden Epochs wird der Validator Contract aufgerufen um die aktiven Validatoren liste anhand des Rankings zu updaten.
-
-### stake
-
-Du kannst die `stake` Methode im `validator` Contract aufrufen um für egal welchen Validator zu staken, das minimum das für einen Validator gestaked werden muss beträgt 32 KCS.
-
-### unstake
-
-Wenn du dein KCS unstaken möchtest dann musst du die `unstake` Methode im `validator` Contract aufrufen und für mindestens 86400 Blöcke (4 Tage) warten um danach die Methode `withdrawStaking` im `validator` Contract  aufrufen zu können um deine KCS zu erhalten.
-
-### punish
-
-Wannimmer ein Validator gefunden wird der nicht zuverlässlich einen Block verarbeitet wie vorgeschrieben, wird der Bestrafungs Contract automatisch aufgerufen. Am Ende des jeweiligen Block wird dieser Aufruf gezählt, sollten die gezählten Aufrufe "24" erreichen so wird dem Validator sein gesammtes Einkommen entzogen, sollte die Anzahl auf 48 steigen wird der aktive Validator aus der Gruppe der aktiven Validatoren entfernt und ist als dieser disqualifiziert.
-
-# Governance
-
-## Advice, Issue & Discussion
-
-Jegliche Tipps, Anregungen und Diskussionen sind Willkommen.
-
-[Hinterlasse einen Tipp/Anmerkung oder Fehler/Problem](https://github.com/kcc-community/any-advice-issue/issues)
-
-[Starte eine Diskussion](https://github.com/kcc-community/any-advice-issue/discussions)
-
-Wenn du ein Problem mit einem speziellen Projekt hast dann verschiebe dieses `issue` in das jeweilige spezial Projekt.
 
 ## KIPs
+Предложения по улучшению KCC
 
-KCC Verbesserungsvorschläge
+Предложения по улучшению KCC (KIPs) описывают стандарты для платформы KCC, включая Chain, DEX и dApps.
 
-KCC Verbesserungsvorschläge (KIPs)  beschreiben den Standard für die KCC Plattform inkludiert Chain, Dex and dApps.
-
-Der Idee hinter diesem Prozess ist es alle änderungen an der KCC so transparent und demokratisch wie möglich zu gestalten.
+Цель этого процесса - обеспечить, чтобы изменения в KCC были прозрачными и хорошо управляемыми.
 
 URL：[https://github.com/kcc-community/KIPs](https://github.com/kcc-community/KIPs)
 
-
 # FAQ
-## MetaMask
+1.Каков механизм консенсуса KCC?
 
-Nutze den Chrome Browser und öffne MetaMask [extension site](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=zh-CN)
+>KCC использует механизм локального консенсуса, отличающийся низкой стоимостью, высокой производительностью и стабильной генерацией блоков, поддерживающий до 29 нод валидаторов;
 
-Folge den Anweisungem um deine ETH Wallet zu erzeugen und **Backuppe deinen Private Key und/oder deine Memonic**
+2.Как стать узлом проверки KCC?
 
-Konfiguriere MetaMask für das KCC Mainnet
+>Чтобы стать валидатором, вам нужно запустить ноду и отправить предложение, а затем подождать, пока другие активные валидаторы проголосуют. Получив более половины голосов, вы имеете право стать валидатором. Любой адрес может производить стейкинг на адрес, который подходит для того, чтобы стать валидатором, и после того, как объем стейка валидатора войдет в топ-29, он станет активным валидатором в следующую эпоху.
 
-(1) Öffne MetaMask. Im oberen Bereich siehst du das standard Netzwerk 【Ethereum mainnet】。
+3.Поддерживает ли KCC EVM?
+
+>KCC полностью поддерживает EVM и полностью дружелюбен к разработчикам Ethereum.
+
+4.Какой SDK использует KCC?
+
+>KCC очень совместим с Ethereum, поэтому мы используем sdk Ethereum, такие как web3js, web3j и т. д.
+
+5.Я хочу выполнить некоторые операции и тесты в тестовой сети KCC. Где я могу получить тестовые токены?
+
+>Вы можете зайти на наш кран и получить их там: https://faucet-testnet.kcc.network.
+
+6.Как положить в стейкинг на контракты нод?
+
+>Пользователи могут вызвать метод stake контракта валидатора, чтобы положить в стейкинг на любую ноду. Минимальная сумма стейка для каждого валидатора составляет 32 KCS.
+
+7.Как разблокировать сумму стейка?
+
+>Если пользователи хотят вернуть находящиеся в стейке KCS, им необходимо вызвать метод unstake контракта валидаторов, чтобы разблокировать сумму находящуюся в стейке. После того, как было сгенерировано 86 400 блоков (3 дня), вызовите метод withdrawStaking контракта валидаторов, чтобы вернуть находящиеся в стейке KCS.
+
+8.Проблемы при использовании MetaMask (включая, но не ограничиваясь, проблемы при отправке токенов, задержка при отправке, проблемой отображения данных и т.д.)
+
+>Используйте плагин expand view для отображения в полноэкранном режиме, который может быть более стабильным, или выберите "Ускорить", чтобы увеличить максимальный расход газа и цену на газ.
+
+9.Как использовать мост KCC для кросс-чейн переноса активов между сетями？
+
+>Вы можете посмотреть видеоурок на эту тему：https://www.youtube.com/watch?v=kZdX1V2Tgnc
+
+>Больше учебных материалов вы сможете найти на нашем Youtube-канале：https://www.youtube.com/channel/UCZhWm40SuAApnLqqq3F9o1w
+
+10.Что произойдет, если мы используем ER20 вместо KCC при отправке Tether на адрес, который не поддерживает KCC? Будет ли токен возвращен на исходный адрес кошелька через некоторое время?
+
+> Если адрес назначения является вашим личным адресом, операция очень проста. Измените сеть кошелька на KCC,импортируйте свой адрес и адрес контракта KCC-USDT,и вы сможете увидеть баланс USDT.
+
+>Если ваш адрес назначения является обменным или централизованным кошельком, вам необходимо обратиться в службу поддержки клиентов, чтобы они оказали поддержку KCC или вернули деньги на ваш первоначальный адрес.
+
+>Поэтому мы предлагаем нашим пользователям перед отправкой четко понять, куда и как они будут осуществлять перевод, поскольку блокчейн обладает неизменяемостью, что означает, что любой перевод не может быть возвращен после отправки, и мы всегда рекомендуем сначала попробовать с меньшей суммой.
+
+
+## Как настроить кошелек MetaMask
+
+Используя браузер Chrome откройте MetaMask [сайт расширения](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=zh-CN)
+
+Следуйте вводной части, создайте свой ETH-кошелек,**создайте резервную копию своего закрытого ключа или мнемонического**；
+
+Конфигурация основной сети KCC
+
+(1) Откройте MetaMask, там вы сможете увидеть конфигурацию по умолчанию【Ethereum mainnet】。
 
 <img width="170" alt="E1" src="https://user-images.githubusercontent.com/13411690/121641021-3f093900-cac1-11eb-9c06-fd653cd598a1.png">
 
-Klicke auf【Ethereum mainnet】danach klicke auf【custom RPC】im Dropdown Menü.
+
+click【Ethereum mainnet】，нажмите【custom RPC】в выпадающем меню
 
 <img width="170" alt="E2" src="https://user-images.githubusercontent.com/13411690/121641049-4597b080-cac1-11eb-8674-3755c30a3398.png">
 
-(2) Fülle die Felder in folgender reihenfolge aus um das KCC Mainnet hinzuzufügen:
-    Network Name：KCC-MAINNET
 
+(2) Заполните это значение конфигурации, чтобы перейти в основную сеть KCC：
+
+    Network Name：KCC-MAINNET
+    
     New RPC URL：https://rpc-mainnet.kcc.network
     
     Chain ID: 321
@@ -207,6 +294,15 @@ Klicke auf【Ethereum mainnet】danach klicke auf【custom RPC】im Dropdown Men
 
 <img width="170" alt="E3" src="https://user-images.githubusercontent.com/13411690/121641889-598fe200-cac2-11eb-92c5-6617c103ebee.png">
 
-Fertig
+
+
+
+Готово
 
 <img width="170" alt="E4" src="https://user-images.githubusercontent.com/13411690/121641085-51837280-cac1-11eb-80cd-1a208c0bcd54.png">
+
+## Как работать с застрявшими транзакциями в MetaMask？
+[[Video]Как работать с застрявшими транзакциями в MetaMask (KCC)](https://youtu.be/0xkkRmajIJI)
+
+## Как добавить пользовательский токен в свой кошелек MetaMask?
+[[Video]Как добавить пользовательский токен в свой кошелек MetaMask? (KCC)](https://youtu.be/tb7xSLur6EU)
